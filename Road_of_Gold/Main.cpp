@@ -21,7 +21,7 @@ void Main()
 	else Window::Resize(1280, 720);
 	Window::SetTitle(L"Road of Gold v2.00");
 
-	Log(L"WindowSIze:", Window::Size());
+	Log(L"WindowSize:", Window::Size());
 	Log(L"FullScreen:", Window::GetState().fullScreen);
 
 	//Fontの展開
